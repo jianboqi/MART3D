@@ -7,7 +7,7 @@
  * Mediate tree: it is consisted of trunk, branches, and tubid leaves (more details, please refer to [J. Qi. et al, 2022](https://www.sciencedirect.com/science/article/abs/pii/S0034425722004072))
  * Big tree (upper tall trees, dominant trees): it is consisted of trunk, branches, and tubid leaves
 
-Each layer has its corresponding optical properties and structural properties, including LAI, LAD.
+Each layer has its corresponding optical properties and structural properties, including LAI, LAD. Please note that MART3D can be fully customized, e.g., changing layers, tree etc. 
 
 <img width="400" src="https://user-images.githubusercontent.com/1770654/204257048-8d4fe151-7d0e-4d55-8c56-b245fcf52cc4.png"/>
 
