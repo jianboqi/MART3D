@@ -9,8 +9,7 @@
 
 Each layer has its corresponding optical properties and structural properties, including LAI, LAD.
 
-
-<img width="400" src="https://user-images.githubusercontent.com/1770654/204232655-e9cef047-3c28-4e60-83cd-833042e3c72f.png"/>
+<img width="400" src="https://user-images.githubusercontent.com/1770654/204257048-8d4fe151-7d0e-4d55-8c56-b245fcf52cc4.png"/>
 
 ## Usage
 ### Step 01: Install LESS
