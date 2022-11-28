@@ -63,3 +63,10 @@ plot.do_sim()
 More parameters can be set, please refer to the code `MART3D.py`
 
 After the simulation, the results is in the `[dist_dir\sim_name\Results]` folder, e.g., `D:\LESS\simulations\ForestPlotGenerate\forestplot001\Results`, the `_BRF.txt` files stores the BRF values, starting from 12th line.
+
+### Reference
+If you find MART3D or LESS helps you, you can cite the following paper:
+
+* Qi, J., Xie, D., Jiang, J., Huang, H., 2022. [3D radiative transfer modeling of structurally complex forest canopies through a lightweight boundary-based description of leaf clusters](https://www.sciencedirect.com/science/article/abs/pii/S0034425722004072). Remote Sensing of Environment. 283, 113301. https://doi.org/10.1016/j.rse.2022.113301
+
+* Qi, J., Xie, D., Yin, T., Yan, G., Gastellu-Etchegorry, J.-P., Li, L., Zhang, W., Mu, X., Norford, L.K., 2019. [LESS: LargE-Scale remote sensing data and image simulation framework over heterogeneous 3D scenes](https://www.sciencedirect.com/science/article/pii/S0034425718305443?via%3Dihub). Remote Sensing of Environment. 221, 695–706. https://doi.org/10.1016/j.rse.2018.11.036
