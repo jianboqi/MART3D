@@ -60,3 +60,6 @@ plot.generate()
 plot.do_sim()
 ```
 
+More parameters can be set, please refer to the code `MART3D.py`
+
+After the simulation, the results is in the `[dist_dir\sim_name\Results]` folder, e.g., `D:\LESS\simulations\ForestPlotGenerate\forestplot001\Results`, the `_BRF.txt` files stores the BRF values, starting from 12th line.
