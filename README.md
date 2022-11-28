@@ -18,12 +18,38 @@ The only thing you need to do is to set the LESS Python SDK before you using MAR
 
 <img width="300" src="https://user-images.githubusercontent.com/1770654/204243357-1af7506b-3dfb-4553-b0a1-5446f3d864a8.png"/> <img width="600" src="https://user-images.githubusercontent.com/1770654/204244982-239cb0be-2b20-4dd1-9dca-91470945dcf5.png"/>
 
-If you are not using Pycharm, you can specify the pyLESSSDK by using python code
+If you are not using Pycharm, you can specify the pyLessSDK by using python code
 
 ```
 import sys
 sys.path.append(r"D:\LESS\app\Python_script\pyLessSDK")
 ```
 
+### Step 03: Doing the simulations
+The code in this repository (`MART3D.py`) shows the example to run the simulations.
 
+```
+import sys
+sys.path.append(r"D:\LESS\app\Python_script\pyLessSDK")  # if you do not using pycharm, you can use this line
+
+from ForestPlotGenerator import ForestPlot, OpticalRefTrans
+
+less_install_dir = r"D:\LESS"  # The root installation directory of LESS
+dist_dir = r"D:\LESS\simulations\ForestPlotGenerate"  # Specify a folder to store the simulation files and results
+sim_name = r"forestplot001"  # The name of the simulation, all the files and results will be generated within this folder, you can name it as you want
+
+plot = ForestPlot(less_install_dir, dist_dir, sim_name, scene_x_size=30, scene_y_size=30)
+
+# spectral bands
+plot.spectral_bands = [450, 550, 650, 850]   # 4 spectral bands in nm
+
+# view and solar parameters
+plot.solar_zenith_angle = 45
+plot.solar_azimuth_angle = 90
+plot.view_zen_azi_angles = [(0, 0)]
+
+
+plot.generate()
+plot.do_sim()
+```
 
