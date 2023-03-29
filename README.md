@@ -4,8 +4,8 @@
  * Soil
  * Grass: it is abstracted as a homogeneous layer like SAIL model
  * Shrub: it is abstracted as turbid spheres
- * Mediate tree: it is consisted of trunk, branches, and tubid leaves (more details, please refer to [J. Qi. et al, 2022](https://www.sciencedirect.com/science/article/abs/pii/S0034425722004072))
- * Big tree (upper tall trees, dominant trees): it is consisted of trunk, branches, and tubid leaves
+ * Mediate tree: it is consisted of trunk, branches, and turbid leaves (more details, please refer to [J. Qi. et al, 2022](https://www.sciencedirect.com/science/article/abs/pii/S0034425722004072))
+ * Big tree (upper tall trees, dominant trees): it is consisted of trunk, branches, and turbid leaves
 
 Each layer has its corresponding optical properties and structural properties, including LAI, LAD. Please note that MART3D can be fully customized, e.g., changing layers, tree etc. 
 
